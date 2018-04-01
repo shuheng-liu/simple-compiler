@@ -26,7 +26,7 @@ repeat
 set
 then
 to
-ture
+true
 until
 var
 while
