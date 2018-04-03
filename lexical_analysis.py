@@ -22,12 +22,12 @@ with open(src_path) as fi, open(log_path, 'w') as fl:
             final = parser.process(ch)
             print('current char = %s, final = %s' % (ch, final))
             if final:
-                fl.writelines(['( %s ,  %s ) -->  %s , current lex =  %s \n' % tup for tup in parser.logs])
-                fl.write('--------------  %s  --------------\n\n' % parser.current_lex)
+                fl.writelines(['(%s,%s)-->%s, current-lex=%s\n' % tup for tup in parser.logs])
+                fl.write('----------------------%s----------------------\n\n' % parser.current_lex)
                 if parser.current_state == 'illegal':
                     raise KeyError('illegal state encountered')
                 collection.append(parser.current_lex, parser.current_state)
-
+                # TODO: Roll Back
                 parser.start_over()
                 parser.process(ch)
 
