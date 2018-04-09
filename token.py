@@ -1,7 +1,8 @@
 import datetime
 
+
 class TokenCollection:
-    def __init__(self, keywords, lex_path, set_path, write_on_the_fly = False):
+    def __init__(self, keywords, lex_path, set_path, write_on_the_fly=False):
         self.keywords = keywords
         self.type2ID = {
             'constant_end': 10,
