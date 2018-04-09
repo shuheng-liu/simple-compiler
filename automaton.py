@@ -54,7 +54,6 @@ class ParserAutomaton(Automaton):
         self.__append_transitions()
         assert self.check_mapping()  # check that transition mapping: Q x Sigma -> Q is fully defined
 
-
     def __append_states(self):
         self.append_state('identifier')
         self.append_state('constant without dot')
@@ -98,7 +97,6 @@ class ParserAutomaton(Automaton):
         self.append_state('str_end', final=True)
         self.append_state('symbol_end', final=True)
         self.append_state('comment_end', final=True)
-
 
     def __append_transitions(self):
         alphabetic = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
@@ -197,7 +195,6 @@ class ParserAutomaton(Automaton):
         self.append_transition('str_end', 'str_end', self.Sigma)
         self.append_transition('symbol_end', 'symbol_end', self.Sigma)
         self.append_transition('comment_end', 'comment_end', self.Sigma)
-
 
 
 if __name__ == "__main__":

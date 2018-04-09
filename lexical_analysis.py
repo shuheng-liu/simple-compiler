@@ -14,11 +14,11 @@ parser = ParserAutomaton()
 with open(key_path) as fk:
     keywords = ''.join(fk.readlines()).split()
 
-collection = TokenCollection(keywords, lex_path1, set_path, write_on_the_fly = True)
+collection = TokenCollection(keywords, lex_path1, set_path, write_on_the_fly=True)
 
 with open(src_path) as fi, open(log_path, 'w') as fl:
     for line in fi.readlines():
-        for ch in line[:-1] + ' ': # replace the last \n character with space
+        for ch in line[:-1] + ' ':  # replace the last \n character with space
             final = parser.process(ch)
             print('current char = %s, final = %s' % (ch, final))
             if final:
