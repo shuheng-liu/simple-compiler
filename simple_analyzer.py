@@ -78,6 +78,7 @@ def t_error(t):
 
 # instantiate a lex object, named lexer
 lexer = lex.lex(debug=1)
+lexer.lineno = 1
 
 # feed input to lexer
 with open(opt.input) as f:
@@ -88,7 +89,7 @@ toks = list(lexer)
 symbols = set(tok.value for tok in toks if tok.type == "ID")
 
 
-# TODO perform syntactic analysis
+# perform syntactic analysis
 
 # 0
 def p_empty(p):
@@ -552,4 +553,14 @@ with open(opt.input) as f:
     result = parser.parse(f.read())
 
 if __name__ == "__main__":
+    print('token list = [')
+    for tok in toks: print("    ", tok, ",")
+    print(']\n')
+
+    print('symbol list = [')
+    for sym in symbols: print("    ", sym, ",")
+    print("]\n")
+
+    print("Abstract Syntax Tree")
     result.traverse()
+
