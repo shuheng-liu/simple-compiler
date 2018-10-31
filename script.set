@@ -1,0 +1,63 @@
+50: identifier_end
+    0: fibonacci
+    1: a
+    2: b
+    3: c
+    4: n
+    5: i
+    6: function
+    7: fib
+    8: exit
+20: str_end
+    0: 'In the main program: '
+    1: '\n'
+    2: 'In function: '
+40: comment_end
+10: constant_end
+    0: 1
+    1: 2
+    2: 3
+60: keyword_end
+    0: and
+    1: array
+    2: begin
+    3: bool
+    4: call
+    5: case
+    6: char
+    7: constant
+    8: do
+    9: else
+    10: end
+    11: false
+    12: for
+    13: if
+    14: input
+    15: integer
+    16: not
+    17: of
+    18: or
+    19: output
+    20: procedure
+    21: program
+    22: read
+    23: real
+    24: repeat
+    25: set
+    26: then
+    27: to
+    28: true
+    29: until
+    30: var
+    31: while
+    32: write
+30: symbol_end
+    0: ;
+    1: ,
+    2: :
+    3: (
+    4: )
+    5: ==
+    6: :=
+    7: +
+    8: .

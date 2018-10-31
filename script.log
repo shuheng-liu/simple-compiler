@@ -1,0 +1,1334 @@
+(initial,p)-->identifier, current-lex=p
+(identifier,r)-->identifier, current-lex=pr
+(identifier,o)-->identifier, current-lex=pro
+(identifier,g)-->identifier, current-lex=prog
+(identifier,r)-->identifier, current-lex=progr
+(identifier,a)-->identifier, current-lex=progra
+(identifier,m)-->identifier, current-lex=program
+(identifier, )-->identifier_end, current-lex=program
+----------------------program----------------------
+
+(initial, )-->initial, current-lex=
+(initial,f)-->identifier, current-lex=f
+(identifier,i)-->identifier, current-lex=fi
+(identifier,b)-->identifier, current-lex=fib
+(identifier,o)-->identifier, current-lex=fibo
+(identifier,n)-->identifier, current-lex=fibon
+(identifier,a)-->identifier, current-lex=fibona
+(identifier,c)-->identifier, current-lex=fibonac
+(identifier,c)-->identifier, current-lex=fibonacc
+(identifier,i)-->identifier, current-lex=fibonacci
+(identifier,;)-->identifier_end, current-lex=fibonacci
+----------------------fibonacci----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,v)-->identifier, current-lex=v
+(identifier,a)-->identifier, current-lex=va
+(identifier,r)-->identifier, current-lex=var
+(identifier, )-->identifier_end, current-lex=var
+----------------------var----------------------
+
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier,,)-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial,,)-->,, current-lex=,
+(,,b)-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial,b)-->identifier, current-lex=b
+(identifier,,)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,,)-->,, current-lex=,
+(,,c)-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial,c)-->identifier, current-lex=c
+(identifier,,)-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,,)-->,, current-lex=,
+(,,n)-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial,n)-->identifier, current-lex=n
+(identifier,,)-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,,)-->,, current-lex=,
+(,,i)-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial,i)-->identifier, current-lex=i
+(identifier,:)-->identifier_end, current-lex=i
+----------------------i----------------------
+
+(initial,:)-->:, current-lex=:
+(:,i)-->symbol_end, current-lex=:
+----------------------:----------------------
+
+(initial,i)-->identifier, current-lex=i
+(identifier,n)-->identifier, current-lex=in
+(identifier,t)-->identifier, current-lex=int
+(identifier,e)-->identifier, current-lex=inte
+(identifier,g)-->identifier, current-lex=integ
+(identifier,e)-->identifier, current-lex=intege
+(identifier,r)-->identifier, current-lex=integer
+(identifier,;)-->identifier_end, current-lex=integer
+----------------------integer----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,f)-->identifier, current-lex=f
+(identifier,u)-->identifier, current-lex=fu
+(identifier,n)-->identifier, current-lex=fun
+(identifier,c)-->identifier, current-lex=func
+(identifier,t)-->identifier, current-lex=funct
+(identifier,i)-->identifier, current-lex=functi
+(identifier,o)-->identifier, current-lex=functio
+(identifier,n)-->identifier, current-lex=function
+(identifier, )-->identifier_end, current-lex=function
+----------------------function----------------------
+
+(initial, )-->initial, current-lex=
+(initial,f)-->identifier, current-lex=f
+(identifier,i)-->identifier, current-lex=fi
+(identifier,b)-->identifier, current-lex=fib
+(identifier,()-->identifier_end, current-lex=fib
+----------------------fib----------------------
+
+(initial,()-->(, current-lex=(
+((,n)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,n)-->identifier, current-lex=n
+(identifier,:)-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,:)-->:, current-lex=:
+(:, )-->symbol_end, current-lex=:
+----------------------:----------------------
+
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier,n)-->identifier, current-lex=in
+(identifier,t)-->identifier, current-lex=int
+(identifier,e)-->identifier, current-lex=inte
+(identifier,g)-->identifier, current-lex=integ
+(identifier,e)-->identifier, current-lex=intege
+(identifier,r)-->identifier, current-lex=integer
+(identifier,))-->identifier_end, current-lex=integer
+----------------------integer----------------------
+
+(initial,))-->), current-lex=)
+(), )-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,v)-->identifier, current-lex=v
+(identifier,a)-->identifier, current-lex=va
+(identifier,r)-->identifier, current-lex=var
+(identifier, )-->identifier_end, current-lex=var
+----------------------var----------------------
+
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier,,)-->identifier_end, current-lex=i
+----------------------i----------------------
+
+(initial,,)-->,, current-lex=,
+(,, )-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier,,)-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial,,)-->,, current-lex=,
+(,, )-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,,)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,,)-->,, current-lex=,
+(,, )-->symbol_end, current-lex=,
+----------------------,----------------------
+
+(initial, )-->initial, current-lex=
+(initial,c)-->identifier, current-lex=c
+(identifier,:)-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,:)-->:, current-lex=:
+(:, )-->symbol_end, current-lex=:
+----------------------:----------------------
+
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier,n)-->identifier, current-lex=in
+(identifier,t)-->identifier, current-lex=int
+(identifier,e)-->identifier, current-lex=inte
+(identifier,g)-->identifier, current-lex=integ
+(identifier,e)-->identifier, current-lex=intege
+(identifier,r)-->identifier, current-lex=integer
+(identifier,;)-->identifier_end, current-lex=integer
+----------------------integer----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,e)-->identifier, current-lex=be
+(identifier,g)-->identifier, current-lex=beg
+(identifier,i)-->identifier, current-lex=begi
+(identifier,n)-->identifier, current-lex=begin
+(identifier, )-->identifier_end, current-lex=begin
+----------------------begin----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier,f)-->identifier, current-lex=if
+(identifier, )-->identifier_end, current-lex=if
+----------------------if----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier,=)-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,=)-->=, current-lex==
+(=,=)-->==, current-lex===
+(==,1)-->symbol_end, current-lex===
+----------------------==----------------------
+
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot, )-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial, )-->initial, current-lex=
+(initial,o)-->identifier, current-lex=o
+(identifier,r)-->identifier, current-lex=or
+(identifier, )-->identifier_end, current-lex=or
+----------------------or----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier,=)-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,=)-->=, current-lex==
+(=,=)-->==, current-lex===
+(==,2)-->symbol_end, current-lex===
+----------------------==----------------------
+
+(initial,2)-->constant without dot, current-lex=2
+(constant without dot, )-->constant_end, current-lex=2
+----------------------2----------------------
+
+(initial, )-->initial, current-lex=
+(initial,t)-->identifier, current-lex=t
+(identifier,h)-->identifier, current-lex=th
+(identifier,e)-->identifier, current-lex=the
+(identifier,n)-->identifier, current-lex=then
+(identifier, )-->identifier_end, current-lex=then
+----------------------then----------------------
+
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,x)-->identifier, current-lex=ex
+(identifier,i)-->identifier, current-lex=exi
+(identifier,t)-->identifier, current-lex=exit
+(identifier,()-->identifier_end, current-lex=exit
+----------------------exit----------------------
+
+(initial,()-->(, current-lex=(
+((,1)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,))-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,;)-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier, )-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,;)-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,f)-->identifier, current-lex=f
+(identifier,o)-->identifier, current-lex=fo
+(identifier,r)-->identifier, current-lex=for
+(identifier, )-->identifier_end, current-lex=for
+----------------------for----------------------
+
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier, )-->identifier_end, current-lex=i
+----------------------i----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,3)-->constant without dot, current-lex=3
+(constant without dot, )-->constant_end, current-lex=3
+----------------------3----------------------
+
+(initial, )-->initial, current-lex=
+(initial,t)-->identifier, current-lex=t
+(identifier,o)-->identifier, current-lex=to
+(identifier, )-->identifier_end, current-lex=to
+----------------------to----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier, )-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial, )-->initial, current-lex=
+(initial,d)-->identifier, current-lex=d
+(identifier,o)-->identifier, current-lex=do
+(identifier, )-->identifier_end, current-lex=do
+----------------------do----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,e)-->identifier, current-lex=be
+(identifier,g)-->identifier, current-lex=beg
+(identifier,i)-->identifier, current-lex=begi
+(identifier,n)-->identifier, current-lex=begin
+(identifier, )-->identifier_end, current-lex=begin
+----------------------begin----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,c)-->identifier, current-lex=c
+(identifier, )-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,+)-->+, current-lex=+
+(+, )-->symbol_end, current-lex=+
+----------------------+----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,;)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,;)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier, )-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,c)-->identifier, current-lex=c
+(identifier,;)-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,n)-->identifier, current-lex=en
+(identifier,d)-->identifier, current-lex=end
+(identifier,;)-->identifier_end, current-lex=end
+----------------------end----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,x)-->identifier, current-lex=ex
+(identifier,i)-->identifier, current-lex=exi
+(identifier,t)-->identifier, current-lex=exit
+(identifier,()-->identifier_end, current-lex=exit
+----------------------exit----------------------
+
+(initial,()-->(, current-lex=(
+((,c)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,c)-->identifier, current-lex=c
+(identifier,))-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,n)-->identifier, current-lex=en
+(identifier,d)-->identifier, current-lex=end
+(identifier,;)-->identifier_end, current-lex=end
+----------------------end----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,e)-->identifier, current-lex=be
+(identifier,g)-->identifier, current-lex=beg
+(identifier,i)-->identifier, current-lex=begi
+(identifier,n)-->identifier, current-lex=begin
+(identifier, )-->identifier_end, current-lex=begin
+----------------------begin----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,r)-->identifier, current-lex=r
+(identifier,e)-->identifier, current-lex=re
+(identifier,a)-->identifier, current-lex=rea
+(identifier,d)-->identifier, current-lex=read
+(identifier,()-->identifier_end, current-lex=read
+----------------------read----------------------
+
+(initial,()-->(, current-lex=(
+((,n)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,n)-->identifier, current-lex=n
+(identifier,))-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier,f)-->identifier, current-lex=if
+(identifier, )-->identifier_end, current-lex=if
+----------------------if----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier, )-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial, )-->initial, current-lex=
+(initial,=)-->=, current-lex==
+(=,=)-->==, current-lex===
+(==, )-->symbol_end, current-lex===
+----------------------==----------------------
+
+(initial, )-->initial, current-lex=
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot, )-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial, )-->initial, current-lex=
+(initial,o)-->identifier, current-lex=o
+(identifier,r)-->identifier, current-lex=or
+(identifier, )-->identifier_end, current-lex=or
+----------------------or----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier, )-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial, )-->initial, current-lex=
+(initial,=)-->=, current-lex==
+(=,=)-->==, current-lex===
+(==, )-->symbol_end, current-lex===
+----------------------==----------------------
+
+(initial, )-->initial, current-lex=
+(initial,2)-->constant without dot, current-lex=2
+(constant without dot, )-->constant_end, current-lex=2
+----------------------2----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,t)-->identifier, current-lex=t
+(identifier,h)-->identifier, current-lex=th
+(identifier,e)-->identifier, current-lex=the
+(identifier,n)-->identifier, current-lex=then
+(identifier, )-->identifier_end, current-lex=then
+----------------------then----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,1)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,))-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,))-->), current-lex=)
+(), )-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,l)-->identifier, current-lex=el
+(identifier,s)-->identifier, current-lex=els
+(identifier,e)-->identifier, current-lex=else
+(identifier, )-->identifier_end, current-lex=else
+----------------------else----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,e)-->identifier, current-lex=be
+(identifier,g)-->identifier, current-lex=beg
+(identifier,i)-->identifier, current-lex=begi
+(identifier,n)-->identifier, current-lex=begin
+(identifier, )-->identifier_end, current-lex=begin
+----------------------begin----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,;)-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier, )-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,1)-->constant without dot, current-lex=1
+(constant without dot,;)-->constant_end, current-lex=1
+----------------------1----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,f)-->identifier, current-lex=f
+(identifier,o)-->identifier, current-lex=fo
+(identifier,r)-->identifier, current-lex=for
+(identifier, )-->identifier_end, current-lex=for
+----------------------for----------------------
+
+(initial, )-->initial, current-lex=
+(initial,i)-->identifier, current-lex=i
+(identifier, )-->identifier_end, current-lex=i
+----------------------i----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,3)-->constant without dot, current-lex=3
+(constant without dot, )-->constant_end, current-lex=3
+----------------------3----------------------
+
+(initial, )-->initial, current-lex=
+(initial,t)-->identifier, current-lex=t
+(identifier,o)-->identifier, current-lex=to
+(identifier, )-->identifier_end, current-lex=to
+----------------------to----------------------
+
+(initial, )-->initial, current-lex=
+(initial,n)-->identifier, current-lex=n
+(identifier, )-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial, )-->initial, current-lex=
+(initial,d)-->identifier, current-lex=d
+(identifier,o)-->identifier, current-lex=do
+(identifier, )-->identifier_end, current-lex=do
+----------------------do----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,e)-->identifier, current-lex=be
+(identifier,g)-->identifier, current-lex=beg
+(identifier,i)-->identifier, current-lex=begi
+(identifier,n)-->identifier, current-lex=begin
+(identifier, )-->identifier_end, current-lex=begin
+----------------------begin----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,c)-->identifier, current-lex=c
+(identifier, )-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,+)-->+, current-lex=+
+(+, )-->symbol_end, current-lex=+
+----------------------+----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,;)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,a)-->identifier, current-lex=a
+(identifier, )-->identifier_end, current-lex=a
+----------------------a----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier,;)-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,b)-->identifier, current-lex=b
+(identifier, )-->identifier_end, current-lex=b
+----------------------b----------------------
+
+(initial, )-->initial, current-lex=
+(initial,:)-->:, current-lex=:
+(:,=)-->:=, current-lex=:=
+(:=, )-->symbol_end, current-lex=:=
+----------------------:=----------------------
+
+(initial, )-->initial, current-lex=
+(initial,c)-->identifier, current-lex=c
+(identifier,;)-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,n)-->identifier, current-lex=en
+(identifier,d)-->identifier, current-lex=end
+(identifier,;)-->identifier_end, current-lex=end
+----------------------end----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,')-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,')-->', current-lex='
+(',I)-->'str, current-lex='I
+('str,n)-->'str, current-lex='In
+('str, )-->'str, current-lex='In 
+('str,t)-->'str, current-lex='In t
+('str,h)-->'str, current-lex='In th
+('str,e)-->'str, current-lex='In the
+('str, )-->'str, current-lex='In the 
+('str,m)-->'str, current-lex='In the m
+('str,a)-->'str, current-lex='In the ma
+('str,i)-->'str, current-lex='In the mai
+('str,n)-->'str, current-lex='In the main
+('str, )-->'str, current-lex='In the main 
+('str,p)-->'str, current-lex='In the main p
+('str,r)-->'str, current-lex='In the main pr
+('str,o)-->'str, current-lex='In the main pro
+('str,g)-->'str, current-lex='In the main prog
+('str,r)-->'str, current-lex='In the main progr
+('str,a)-->'str, current-lex='In the main progra
+('str,m)-->'str, current-lex='In the main program
+('str,:)-->'str, current-lex='In the main program:
+('str, )-->'str, current-lex='In the main program: 
+('str,')-->'str', current-lex='In the main program: '
+('str',))-->str_end, current-lex='In the main program: '
+----------------------'In the main program: '----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,c)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,c)-->identifier, current-lex=c
+(identifier,))-->identifier_end, current-lex=c
+----------------------c----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,')-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,')-->', current-lex='
+(',\)-->'str, current-lex='\
+('str,n)-->'str, current-lex='\n
+('str,')-->'str', current-lex='\n'
+('str',))-->str_end, current-lex='\n'
+----------------------'\n'----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,')-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,')-->', current-lex='
+(',I)-->'str, current-lex='I
+('str,n)-->'str, current-lex='In
+('str, )-->'str, current-lex='In 
+('str,f)-->'str, current-lex='In f
+('str,u)-->'str, current-lex='In fu
+('str,n)-->'str, current-lex='In fun
+('str,c)-->'str, current-lex='In func
+('str,t)-->'str, current-lex='In funct
+('str,i)-->'str, current-lex='In functi
+('str,o)-->'str, current-lex='In functio
+('str,n)-->'str, current-lex='In function
+('str,:)-->'str, current-lex='In function:
+('str, )-->'str, current-lex='In function: 
+('str,')-->'str', current-lex='In function: '
+('str',))-->str_end, current-lex='In function: '
+----------------------'In function: '----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,f)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,f)-->identifier, current-lex=f
+(identifier,i)-->identifier, current-lex=fi
+(identifier,b)-->identifier, current-lex=fib
+(identifier,()-->identifier_end, current-lex=fib
+----------------------fib----------------------
+
+(initial,()-->(, current-lex=(
+((,n)-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,n)-->identifier, current-lex=n
+(identifier,))-->identifier_end, current-lex=n
+----------------------n----------------------
+
+(initial,))-->), current-lex=)
+(),))-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,w)-->identifier, current-lex=w
+(identifier,r)-->identifier, current-lex=wr
+(identifier,i)-->identifier, current-lex=wri
+(identifier,t)-->identifier, current-lex=writ
+(identifier,e)-->identifier, current-lex=write
+(identifier,()-->identifier_end, current-lex=write
+----------------------write----------------------
+
+(initial,()-->(, current-lex=(
+((,')-->symbol_end, current-lex=(
+----------------------(----------------------
+
+(initial,')-->', current-lex='
+(',\)-->'str, current-lex='\
+('str,n)-->'str, current-lex='\n
+('str,')-->'str', current-lex='\n'
+('str',))-->str_end, current-lex='\n'
+----------------------'\n'----------------------
+
+(initial,))-->), current-lex=)
+(),;)-->symbol_end, current-lex=)
+----------------------)----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,n)-->identifier, current-lex=en
+(identifier,d)-->identifier, current-lex=end
+(identifier,;)-->identifier_end, current-lex=end
+----------------------end----------------------
+
+(initial,;)-->;, current-lex=;
+(;, )-->symbol_end, current-lex=;
+----------------------;----------------------
+
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial, )-->initial, current-lex=
+(initial,e)-->identifier, current-lex=e
+(identifier,n)-->identifier, current-lex=en
+(identifier,d)-->identifier, current-lex=end
+(identifier,.)-->identifier_end, current-lex=end
+----------------------end----------------------
+
+(initial,.)-->., current-lex=.
+(., )-->symbol_end, current-lex=.
+----------------------.----------------------
+

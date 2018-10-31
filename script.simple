@@ -1,0 +1,39 @@
+program fibonacci;
+    var a,b,c,n,i:integer;
+
+    function fib(n: integer)
+    var i, a, b, c: integer;
+    begin
+        if n==1 or n==2 then exit(1);
+        a := 1;
+        b := 1;
+        for i := 3 to n do begin
+            c := a + b;
+            a := b;
+            b := c;
+        end;
+        exit(c);
+    end;
+
+    begin
+        read(n);
+        if n == 1 or n == 2
+        then
+            write(1)
+        else begin
+            a := 1;
+            b := 1;
+            for i := 3 to n do begin
+                c := a + b;
+                a := b;
+                b := c;
+            end;
+            write('In the main program: ');
+            write(c);
+            write('\n');
+            write('In function: ');
+            write(fib(n));
+            write('\n');
+        end;
+    end.
+
